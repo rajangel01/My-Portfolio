@@ -2,7 +2,7 @@ import React from "react";
 import Projectheader from "./components/Projectheader";
 import Skills from "./components/Skills";
 import Home from "./components/Home";
-import Users from "./components/Users";
+import Users from "./components/IndividualIntervalsExample";
 import Hireme from "./components/Hireme";
 import Resume from "./components/resume.pdf"
 import Contact from "./components/Contact";
