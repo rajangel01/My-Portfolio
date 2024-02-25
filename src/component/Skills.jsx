@@ -16,11 +16,11 @@ import api from './img/api.jpg';
 function Skills() {
   return (
     <>
-        <div className="in-line container-sm">
-        <div className="blue space">Skills </div>
-        <div className='space'> And </div>
-        <div className="blue space"> Experience</div>
-      </div>
+       <nav className="navbar bg-success my-3">
+  <div className="container-fluid my-2 ">
+  <h3 className='text-center'>Skills and Experience...</h3>
+  </div>
+</nav>
       <div className="container text-center">
          <div className="row my-3 ">
            <div className=" gap-5 col abc rounded-circle   mx-5 ">

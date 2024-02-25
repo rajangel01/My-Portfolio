@@ -2,7 +2,7 @@ import React from 'react'
 import './style.css'
 import call from './img/call.jpg'
 import email from './img/email.jpg'
-import whatsapp from './img/whatsapp.png'
+import whatsapp from './img/whatsapp.jpg'
 import linkedin from './img/linkedin.jpg'
 import github from './img/github.png'
 import hackerrank from './img/hackerrank.png'
@@ -10,12 +10,18 @@ import hackerrank from './img/hackerrank.png'
 export default function Contact() {
   return (
     <>
-      <div className="container bg-secondary text-center my-3 ">
+    <nav className="navbar bg-success ">
+  <div className="container-fluid my-2 ">
+  <h3 className='text-center'>Contact  Me...</h3>
+  </div>
+  </nav>
+      <div className="container bg-secondary text-center my-3 contact-box">
         <div className="h3">Contact Me</div>
         <div className="icons-contact d-flex">
+          
             <div className="call my-2">
               <div className="contactimage">
-                <img src={call} alt="call me" />
+               <a href="tel:+918207644020"> <img src={call} alt="call me" /></a>
               </div>
               
             </div>
@@ -51,14 +57,18 @@ export default function Contact() {
             </div>
         </div>
         <hr />
-        <div className="container">
-          <div className="name text-center">Raj Kumar</div>
+        <div className="container text-center">
+          <div className="my-name">Raj Kumar</div>
           <div className="address">Ward no. 7, Koir Tola, Ariaon,</div>
           <div className="address2">Villege + Post : Ariaon</div>
           <div className="address2">District : Buxar</div>
           <div className="address2">BIHAR, 802119</div>
           <div className="address2"></div>
+          <hr />
+          <div className="terms">Terms & Conditions</div>
+          <div className="copyright">Copyright Raj Kumar &#169; January 2024</div>
         </div>
+        
       </div>
     </>
   )
